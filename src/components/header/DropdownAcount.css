@@ -1,0 +1,63 @@
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+   
+}
+
+.language select {
+    
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #25656e;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 30px 10px 15px;
+    width: 100%;
+    outline: none;
+    transition: all 0.3s ease;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%25656e" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+}
+
+.language select:hover, .language select:focus {
+    border-color: #25656e;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.loginBtn {
+    margin-left: 20px;
+}
+
+.loginBtn a {
+    display: inline-block;
+    background-color: #25656e;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.loginBtn a:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .languages {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .loginBtn {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    
+}

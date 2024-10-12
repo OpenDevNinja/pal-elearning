@@ -1,0 +1,226 @@
+.academic-courses-area {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.academic-shape-2 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 0px;
+    
+}
+
+.academic-box {
+    z-index: 1;
+    min-height: calc(100% - 30px);
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(28, 51, 84, 0.07);
+}
+
+.academic-shape {
+    position: absolute;
+    bottom: -11%;
+    left: -27%;
+    z-index: -1;
+
+}
+
+.academic-thumb {
+    overflow: hidden;
+}
+
+.academic-thumb:hover img {
+    transform: scale3d(1.1, 1.1, 1.1);
+    overflow: hidden;
+}
+
+.academic-thumb img {
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    width: 100%;
+}
+
+.academic-content {
+    padding: 20px 40px 30px 40px;
+    background-color: #ffffff;
+}
+
+/* Les media queries définies précédemment */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .academic-content {
+        padding: 20px 25px 30px 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 575px) {
+    .academic-content {
+        padding: 20px 25px 30px 25px;
+    }
+}
+
+
+
+/* Les media queries définies précédemment */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .academic-content-header h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .academic-content-header h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+(max-width: 575px) {
+    .academic-content-header h3 {
+        font-size: 18px;
+    }
+}
+
+.academic-content-header h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.academic-courses-area {
+    margin-top: 3rem;
+}
+
+.academic-content-header h3:hover {
+    color: #2467EC;
+}
+
+
+/* MD */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .academic-courses-area {
+        display: none;
+    }
+}
+
+/* SM */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .academic-courses-area {
+        display: none;
+    }
+}
+
+/* XS */
+@media (max-width: 575px) {
+    .academic-courses-area {
+        display: none;
+    }
+}
+
+.academic-body {
+    margin-bottom: 30px;
+}
+
+.academic-body p {
+    font-size: 15px;
+}
+
+.academic-tutor {
+    margin-bottom: 20px;
+}
+
+.academic-tutor img {
+    margin-right: 10px;
+}
+
+.academic-tutor a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #141517;
+    ;
+}
+
+.academic-tutor a:hover {
+    color: #2467EC;
+}
+
+.academic-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.academic-footer span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.coursee-clock {
+    display: flex;
+    align-items: center;
+}
+
+.coursee-clock span {
+    font-size: 14px;
+}
+
+.course-creadit {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course-creadit span {
+    font-size: 14px;
+}
+
+.edo-course-sec-btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--color2);
+    padding: 0px 25px;
+    transition: 0.3s;
+}
+
+.edo-course-sec-btn a {
+    color: #ffffff;
+}
+
+.edo-course-sec-btn:hover {
+    background-color: var(--color1);
+    color: #141517;
+}
+
+.academic-bottom-btn {
+    margin: 30px;
+    display: inline-block;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2467EC;
+    background-color: transparent;
+    padding: 0 40px;
+    border: 1px solid #2467EC;
+    transition: 0.3s;
+}
+.academic-bottom-btn:hover a {
+     color: #ffffff !important;
+    
+}
+.academic-bottom-btn:hover {
+    background-color: #2467EC;
+    color: #ffffff !important;
+    border-color: transparent;
+}

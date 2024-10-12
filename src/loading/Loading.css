@@ -1,0 +1,14 @@
+/* Loading.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hauteur de la vue pour centrer verticalement */
+    background-color: #f0f0f0; /* Couleur de fond optionnelle */
+  }
+  
+  .loading-icon {
+    font-size: 3rem; /* Taille de l'icône */
+    color: #007bff; /* Couleur de l'icône */
+  }
+  

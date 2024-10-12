@@ -1,0 +1,29 @@
+:root {
+    --color1: #df213d;
+    --color2: #33016e;
+    
+    }
+
+
+.btn, .h1, .h2, .h3, .h4, .h5, .h6, .transition-3, :after, :before, a, button, h1, h2, h3, h4, h5, h6, i, img, input, li, p, select, span, svg path, textarea {
+    transition: all .3s ease-out 0s;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+/* global style */
+
+p {
+	
+	font-size: 16px;
+	font-weight: normal;
+	color: #575757;
+	margin-bottom: 15px;
+	line-height: 26px;
+}

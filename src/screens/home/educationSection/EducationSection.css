@@ -1,0 +1,73 @@
+/*----------
+
+09. education style
+
+----------*/
+
+/* education-style */
+.education-img img {
+    max-width: 100%;
+}
+.sitdent-choose-content p {
+    margin-bottom: 25px;
+}
+.education-content p {
+    margin-bottom: 40px;
+}
+
+/* education-home-2 shape */
+.education-shape {
+    position: absolute;
+    right: 5%;
+    top: 23%;
+}
+@media (max-width: 575.98px) {
+    .education-shape {
+        display: none;
+    }
+}
+.education-shape-2 {
+    position: absolute;
+    top: 26%;
+    left: 24%;
+    z-index: -1;
+}
+@media (max-width: 1199.98px) {
+    .education-shape-2 {
+        left: 17%;
+    }
+}
+@media (max-width: 575.98px) {
+    .education-shape-2 {
+        display: none;
+    }
+}
+.education-shape-3 {
+    position: absolute;
+    right: 16%;
+    top: 60%;
+    z-index: -1;
+}
+.education-shape-4 {
+    position: absolute;
+    right: 4%;
+    top: 45%;
+    z-index: -1;
+}
+.education-content .edu-sec-btn{
+    display: inline-block;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2467EC;
+	background-color: transparent;
+	padding: 0 30px;
+	border: 1px solid #dce8fe;
+}
+.education-content .edu-sec-btn:hover{
+    background-color: var(--theme-color);
+    color: var(--white);
+    border-color: var(--theme-color);
+}

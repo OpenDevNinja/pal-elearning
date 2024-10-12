@@ -1,0 +1,102 @@
+/* instructor.css */
+
+.instructor {
+    margin-bottom: 4rem;
+  }
+  
+  .instructor .heading {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 70%;
+   
+  }
+  
+  
+  .instructor .heading h1 {
+    font-size: 2.5rem; /* h1 in Bootstrap */
+    font-weight: 700; /* font-weight-bold in Bootstrap */
+    color: #000000; /* text-dark in Bootstrap */
+  }
+  
+  .instructor .heading span {
+    font-size: 0.89rem; /* small in Bootstrap */
+    margin-top: 0.5rem; /* mt-2 in Bootstrap */
+    display: block; /* d-block in Bootstrap */
+  }
+   #blo-instructor{
+
+    width: 100%;
+     }
+  .instCard{
+    background-image: url("../../../assets/img/bg/university-counter.png");
+
+    
+  }
+  .instCard .box {
+    padding: 1.5rem; /* p-4 in Bootstrap */
+    border-radius: 0.25rem; /* rounded in Bootstrap */
+    color: #ffffff; /* text-white in Bootstrap */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .instCard .box:hover {
+    transform: translateY(-0.25rem); /* Adjust the hover effect as needed */
+  }
+  
+  .instCard .bg-primary {
+    background-color: #007bff;
+  }
+  
+  .instCard .bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .instCard .bg-purple {
+    background-color: #6f42c1;
+  }
+  
+  .instCard .bg-success {
+    background-color: #28a745;
+  }
+  
+  .instCard .icon {
+    font-size: 3.125rem; /* Adjust size as needed */
+  }
+  
+  .instCard .text {
+    margin-top: 1.5rem; /* mt-4 in Bootstrap */
+  }
+  
+  .instCard .text h4 {
+    font-size: 1.25rem; /* h5 in Bootstrap */
+    font-weight: 700; /* font-weight-bold in Bootstrap */
+    margin-top: 1rem; /* my-3 in Bootstrap */
+    margin-bottom: 1rem; /* my-3 in Bootstrap */
+  }
+  
+  .instCard .text p {
+    color: #fff;
+    font-weight:600 ;
+    font-size: 0.875rem; /* small in Bootstrap */
+  }
+  /* Adding the 'backbg' class for the background styling */
+.backbg::before {
+    background: rgba(43, 78, 255, 0.7); /* Adjust this according to your background color */
+    height: 100%; 
+    width: 100%; /* Equivalent to w-full in Tailwind */
+    position: absolute; /* Equivalent to absolute in Tailwind */
+    top: 0; /* Equivalent to top-0 in Tailwind */
+    left: 0; /* Equivalent to left-0 in Tailwind */
+    content: ''; /* Equivalent to content in Tailwind */
+    z-index: 10; 
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  /* Ensure the parent element is positioned relatively for the absolute positioning to work */
+  .img-wrapper {
+    position: relative;
+  }
+  

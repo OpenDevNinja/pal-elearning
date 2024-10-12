@@ -1,0 +1,63 @@
+.counter-wrapper {
+	padding: 50px 30px 50px 30px;
+	background-color: #F6F8FB;
+}
+/*----------
+
+06. counter style
+
+----------*/
+
+/* counter */
+.counter-wrapper {
+    padding: 50px 30px;
+    background-color: #f0f0f0; /* Remplacez cette valeur par $theme-bg */
+}
+
+/* homepage-2 */
+.count-number span {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #333; /* Remplacez cette valeur par $heading-color */
+}
+
+.count-number span.counter-text,
+.count-number span.counters {
+    margin-bottom: 0px;
+}
+
+.count-number p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.counter-icon svg {
+    margin-bottom: 30px;
+}
+
+/* university-counter */
+.counter-img svg {
+    margin-bottom: 25px;
+}
+
+.university-counter-text span {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff; /* Remplacez cette valeur par $white */
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.university-counter-text span.counter-text,
+.university-counter-text span.counters {
+    margin-bottom: 0px;
+}
+
+.university-counter-text p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff; /* Remplacez cette valeur par $white */
+}

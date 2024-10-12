@@ -1,0 +1,18 @@
+.dashdoard  .top-selling{
+    font-size: 14px;
+}
+.dashdoard .top-selling .table thead{
+    background-color: #f6f6fe !important;
+}
+.dashdoard .top-selling .table thead th{
+ border: 0;
+}
+.dashdoard .top-selling .table tbody td{
+    vertical-align: middle;
+}
+.dashdoard .top-selling img{
+   border-radius: 5px;
+   max-width: 60px;
+}
+
+

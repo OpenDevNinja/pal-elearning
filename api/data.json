@@ -1,0 +1,222 @@
+{
+    "card":[
+        {
+            "_id":1,
+            "name": "Sales",
+            "icon":"bi bi-cart",
+            "amount":145,
+            "percentage":0.12,
+            "active":true
+        },
+        {
+            "_id":2,
+            "name": "Revenue",
+            "icon":"bi bi-currency-dollar",
+            "amount":3246,
+            "percentage":0.08,
+            "active":false
+        },
+        {
+            "_id":3,
+            "name": "Customers",
+            "icon":"bi bi-people",
+            "amount":1244,
+            "percentage":-0.1,
+            "active":false
+        }
+        
+    ],
+    "news" :[
+        {
+            "_id":1,
+            "img": "",
+            "tilte":"uu tilte",
+            "subtitle":"sun sous titre ",
+            "category":"abc"
+            
+        },
+        {
+            "_id":2,
+            "img": "",
+            "tilte":"uu tilte 2",
+            "subtitle":"sun sous titre ",
+            "category":"abc"
+            
+        },
+        {
+            "_id":3,
+            "img": "",
+            "tilte":"un tilte 3",
+            "subtitle":"sun sous titre ",
+            "category":"abc"
+            
+        },
+        {
+            "_id":4,
+            "img": "",
+            "tilte":"un tilte 4",
+            "subtitle":"sun sous titre ",
+            "category":"abc"
+            
+        },
+        {
+            "_id":5,
+            "img": "",
+            "tilte":"un tilte 4",
+            "subtitle":"sun sous titre ",
+            "category":"abc"
+            
+        }
+    ],
+    "topselling" :[
+        {
+            "_id":1,
+            "preview": "",
+            "name":"uu tilte",
+            "price":64,
+            "sold": 124
+            
+        },
+        {
+            "_id":2,
+            "preview": "",
+            "name":"uu tilte",
+            "price":64,
+            "sold": 124
+            
+        },
+        {
+            "_id":3,
+            "preview": "",
+            "name":"uu tilte",
+            "price":64,
+            "sold": 124
+            
+        }
+        ,
+        {
+            "_id":4,
+            "preview": "",
+            "name":"uu tilte",
+            "price":64,
+            "sold": 124
+            
+        }
+        ,
+        {
+            "_id":5,
+            "preview": "",
+            "name":"uu tilte",
+            "price":64,
+            "sold": 124
+            
+        }
+    ],
+    "recentsales":[
+        
+        {
+            "_id":1,
+            "number": "#1234",
+            "Customer":"Toyi Bona",
+            "product":"course's name",
+            "price": 124,
+            "statut":"Approuved"
+            
+        },
+         
+        {
+            "_id":2,
+            "number": "#1234",
+            "Customer":"Toyi Bona",
+            "product":"course's name",
+            "price": 124,
+            "statut":"Pending"
+            
+        },
+         
+        {
+            "_id":3,
+            "number": "#1234",
+            "Customer":"Toyi Bona",
+            "product":"course's name",
+            "price": 124,
+            "statut":"Approuved"
+            
+        },
+         
+        {
+            "_id":4,
+            "number": "#1234",
+            "Customer":"Toyi Bona",
+            "product":"course's name",
+            "price": 124,
+            "statut":"Rejected"
+            
+        },
+         
+        {
+            "_id":5,
+            "number": "#1234",
+            "Customer":"Toyi Bona",
+            "product":"course's name",
+            "price": 124,
+            "statut":"Approuved"
+            
+        }
+      
+    ],
+    "recentactivity":[
+        {
+            "_id":1,
+            "time": "35 min",
+            "color":"text-success",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":"un text "
+            
+        },
+        {
+            "_id":2,
+            "time": "35 min",
+            "color":"text-danger",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":" "
+            
+        },  {
+            "_id":3,
+            "time": "35 min",
+            "color":"text-primary",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":"un text "
+            
+        },
+        {
+            "_id":4,
+            "time": "1 hr",
+            "color":"text-info",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":"un text "
+            
+        },  {
+            "_id":5,
+            "time": "35 min",
+            "color":"text-warning",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":"un text "
+            
+        },
+        {
+            "_id":6,
+            "time": "40 min",
+            "color":"text-muted",
+            "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "price": 124,
+            "highlight":"un text "
+            
+        }
+    ]
+}

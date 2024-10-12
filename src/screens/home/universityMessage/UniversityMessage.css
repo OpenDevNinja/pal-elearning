@@ -1,0 +1,136 @@
+.message-sticker img {
+    padding-left: 22px;
+    max-width: 100%;
+}
+@media (max-width: 768px), (max-width: 576px), (max-width: 480px) {
+    .message-sticker img {
+        padding-left: 0;
+    }
+}
+
+.message-profile-text {
+    margin-bottom: 40px;
+}
+.message-profile-text span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333; /* Remplacez cette valeur par la variable $heading-color */
+    margin-bottom: 27px;
+    display: block;
+}
+
+.message-meta {
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px), (max-width: 576px), (max-width: 480px) {
+    .message-meta {
+        margin-bottom: 50px;
+    }
+}
+
+.message-meta-link {
+    margin-left: 20px;
+}
+.message-meta-link h4 {
+    line-height: 1;
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+.message-meta-link p {
+    margin-bottom: 0;
+}
+
+.feedback-wrapper {
+    padding-left: 60px;
+}
+@media (max-width: 480px), (max-width: 576px), (max-width: 768px) {
+    .feedback-wrapper {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+}
+
+.etablist-price {
+    height: 160px;
+    width: 160px;
+    background: #2467ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+}
+@media (max-width: 768px), (max-width: 576px) {
+    .etablist-price {
+        left: 250px;
+    }
+}
+@media (max-width: 480px) {
+    .etablist-price {
+        left: 0;
+    }
+}
+
+.etablist-price p {
+    color: #fff; /* Remplacez cette valeur par la variable $white */
+    margin-bottom: 0;
+}
+.etablist-price p span {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 5px 0;
+    line-height: 1;
+}
+
+.down-mark-line-2 {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+.down-mark-line-2::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 8%;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background: url(../../../assets/img/icon/down-mark-line-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    -webkit-animation: section-animation 3s infinite;
+    animation: section-animation 3s infinite;
+}
+@keyframes section-animation {
+	0% {
+		width: 0;
+	}
+	15% {
+		width: 100%;
+	}
+	85% {
+		opacity: 1;
+	}
+	90% {
+		width: 100%;
+		opacity: 0;
+	}
+	to {
+		width: 0;
+		opacity: 0;
+	}
+}
+.section-title h2{
+    
+	
+	margin-top: 0px;
+	font-weight: 700;
+	line-height: 1.3;
+}

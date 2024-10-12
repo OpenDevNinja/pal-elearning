@@ -1,0 +1,140 @@
+:root {
+  scroll-behavior: smooth;
+  --color1: #4154f1;
+  --color2: #717ff5;
+  --color3: #f6f6ff;
+
+}
+
+body {
+  background-color:#f6f6ff ;
+}
+#bgBack  {
+  background-color:#f6f6ff ;
+}
+
+
+a {
+  color: var(--color1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color2);
+}
+
+.dropdown-menu {
+  border-radius: 4px;
+  padding: 10px 0;
+  -webkit-animation-name: dropdown-animate;
+  animation-name: dropdown-animate;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  border: 0;
+  box-shadow: 0 5px 30px 0 rgba(82, 63, 105, 0.2);
+
+}
+
+.dropdown-menu .dropdown-header,
+.dropdown-menu .dropdown-footer {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+.dropdown-menu .dropdown-footer a {
+  color: #444444;
+  text-decoration: underline;
+}
+
+.dropdown-menu .dropdown-footer:hover {
+  text-decoration: none;
+
+}
+
+.dropdown-menu .dropdown-diviser {
+  color: #a5c5fe;
+  margin: 0;
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 15px;
+  padding: 10px 15px;
+  top: 0.3s;
+}
+
+.dropdown-menu .dropdown-item i {
+  font-size: 18px;
+  margin-right: 10px;
+  line-height: 0;
+}
+
+@-webkit-keyframes dropdown-animate {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes dropdown-animate {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 0;
+  }
+}
+
+/* card */
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.01);
+}
+
+.card-header,
+.card-footer {
+  border-color: #ebeefa;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #012970;
+
+}
+
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 40;
+  
+}
+.card-body{
+  padding: 0px 20px 20px 20px;
+
+}
+.card-img-overlay{
+  background: rgba(255, 255, 255, 0.6);
+}

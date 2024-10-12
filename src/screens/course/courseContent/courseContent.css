@@ -1,0 +1,460 @@
+.course-sidebar-widget {
+    border: 1px solid #edeef2;
+    padding: 28px 30px 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.course-sidebar-info.content-hidden ul {
+	display: none;
+}
+
+.course-sidebar-info.content-hidden::after {
+	transform: rotate(0deg);
+}
+
+@media (min-width: 1200px) {
+    .course-sidebar-widget {
+        padding: 28px 20px 20px 20px;
+    }
+}
+
+.course-sidebar-info h3 {
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.course-sidebar-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.course-sidebar-info::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "\f107";
+    font-family: 'FontAwesome';
+    color: #575757;
+    cursor: pointer;
+    transform: rotate(-180deg);
+}
+
+
+.course-sidebar-info ul {
+    margin-top: 0;
+}
+
+.course-sidebar-info ul li {
+    margin-bottom: 10px;
+}
+
+.course-sidebar-list input[type="checkbox"] {
+    border: 1px solid #edeef2;
+    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+    margin-right: 8px;
+
+    
+}
+
+.course-sidebar-list input[type="checkbox"]:checked {
+    border: none;
+    background-color: #2467EC;
+    color: #ffffff !important;
+}
+
+.course-sidebar-list input[type="checkbox"]:checked::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free"; /* Assurez-vous que la famille de polices est correcte */
+    font-weight: 900; /* Ajoutez ce style pour s'assurer que l'icône utilise la bonne épaisseur de police */
+    line-height: 16px;
+    top: 0;
+    left: 2px;
+}
+
+
+
+.course-sidebar-list input[type="radio"] {
+    border: 1px solid #edeef2;
+    border-radius: 9px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.course-sidebar-list input[type="radio"]:checked::before {
+    position: absolute;
+    content: "";
+    font-family: "Font Awesome 5 Pro";
+    top: 4px;
+    left: 4px;
+    height: 8px;
+    width: 8px;
+    background: #2467EC;
+    border-radius: 50%;
+}
+
+.edu-check-label {
+    cursor: pointer;
+}
+
+.edu-check-star i.fal {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.edu-check-star i.fas {
+    color: #ffb013;
+    font-size: 13px;
+}
+
+
+/* course */
+.course-content-area {
+    margin-top: 25px;
+}
+
+.course-wrapper-2 {
+    padding: 0;
+    position: relative;
+}
+
+.course-wrapper-2:hover .course-cart {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 575px) {
+    .course-wrapper-2:hover .course-cart {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.course-wrapper-2:hover .student-course-img img {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.student-course-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course-cart {
+	background: #fff;
+	padding: 30px 40px;
+	box-shadow: 0px 0px 70px rgba(15, 38, 71, 0.2);
+	min-width: 360px;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	top: -10px;
+	right: 0;
+	transition: 0.3s;
+	z-index: 11;
+	border-radius: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media (max-width: 1199px) {
+	.course-cart {
+		padding: 30px;
+		min-width: 340px;
+	}
+}
+
+@media (max-width: 575px) {
+	.course-cart {
+		display: none;
+	}
+}
+.eduman-course-main-wrapper:hover .course-cart {
+	opacity: 1;
+	visibility: visible;
+}
+.course-info-wrapper h3 {
+		font-size: 20px;
+		margin-bottom: 5px;
+		line-height: 1.3;
+	}
+
+    .cart-info-body h3:hover {
+        color: #2467EC;
+    }
+    .category-color {
+        font-size: 15px;
+        font-weight: 600;
+        background: #6f19c5;
+        padding: 0px 10px;
+        color: #ffffff;
+        margin-bottom: 15px;
+        display: inline-block;
+        height: 26px;
+        border-radius: 3px;
+    }
+    .category-color.category-color-1 {
+        background: #31bf82;
+    }
+    .category-color.category-color-2 {
+        background: #6931bf;
+    }
+    .category-color.category-color-3 {
+        background: #319dbf;
+    }
+    .category-color.category-color-4 {
+        background: #bf7831;
+    }
+    .category-color.category-color-5 {
+        background: #bf315c;
+    }
+    .cart-lavel span {
+        color: #2467EC;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .cart-lavel h5 {
+        font-size: 15px;
+        font-weight: 400;
+          color: #575757;
+        margin-bottom: 25px;
+    }
+    
+    .cart-lavel p {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .info-cart-text ul {
+        margin-bottom: 30px;
+    }
+    
+    .info-cart-text ul li {
+        margin-bottom: 5px;
+        display: flex;
+    }
+    
+    .info-cart-text ul li i {
+        margin-right: 15px;
+        color: #2467EC; 
+        line-height: 1;
+        transform: translateY(4px);
+    }
+    .course-action {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .course-action .view-details-btn {
+        flex-grow: 1;
+    }
+    .student-course-linkter {
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    .portfolio-price {
+        display: flex;
+        align-items: center;
+    }
+    
+    .portfolio-price span {
+        color: #2467EC;
+        font-weight: 900;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .portfolio-price del {
+        margin-left: 10px;
+        color: #575757; 
+        font-weight: 600;
+    }
+    .student-course-text h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        .student-course-text h3 {
+            font-size: 16px;
+        }
+    }
+    
+    .student-course-text h3 a:hover {
+        color: #2467EC;
+    }
+    
+    .user-icon {
+        margin-bottom: 9px;
+    }
+    
+    .user-icon a {
+        font-size: 16px;
+        color: #a7aaaf;
+    }
+    
+    .user-icon a:hover {
+        color: #2467EC;
+    }
+    
+    .user-icon i {
+        margin-right: 8px;
+    }
+    .course-icon span {
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 8px;
+    }
+    
+    .course-icon i {
+        font-size: 15px;
+    }
+    
+    .course-icon i.fas {
+        color: #ffb013;
+        font-size: 13px;
+    }
+    
+    .course-icon i.fal {
+        color: #ccc;
+    }
+    
+    .c-share-btn {
+        width: 45px;
+        height: 45px;
+        border: 1px solid #dce8fe;
+        border-radius: 4px;
+        font-size: 19px;
+        color: #a6bce8;
+        line-height: 50px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    .c-share-btn:hover {
+        background: #2467EC;
+        border-color: #2467EC;
+        color: #ffffff;
+    }
+    .wishlist-btn {
+        width: 45px;
+        height: 45px;
+        border: 1px solid #dce8fe;
+        border-radius: 4px;
+        font-size: 19px;
+        color: #a6bce8;
+        line-height: 50px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    
+    .wishlist-btn:focus {
+        border: 1px solid #dce8fe;
+    }
+    
+    .wishlist-btn:hover {
+        border-color: #2467EC;
+        color: #2467EC;
+    }
+    
+    .wishlist-btn.w-added {
+        background: #2467EC;
+        border-color: #2467EC;
+        color: #ffffff;
+    }
+    .view-details-btn {
+        height: 45px;
+        padding: 0 35px;
+        display: inline-block;
+        background-color: #2467EC;
+        line-height: 45px;
+        border-radius: 4px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
+        transition: 0.3s;
+    }
+    
+    .view-details-btn:hover {
+        background: #FFB013;
+        color: #141517;
+    }
+    
+    @media (max-width: 1199px) {
+        .view-details-btn {
+            padding: 0 35px;
+        }
+    }
+    .edu-follow-btn {
+        height: 50px;
+        padding: 0 40px 0 60px;
+        background: #2467EC;
+        display: block;
+        line-height: 50px;
+        border-radius: 3px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 600;
+        transition: 0.3s;
+        position: relative;
+    }
+    
+    .edu-follow-btn i {
+        margin-right: 10px;
+    }
+    
+    .edu-follow-btn:focus {
+        color: #ffffff;
+    }
+    
+    .edu-follow-btn:hover {
+        color: #141517;
+        background: #FFB013
+    }
+    
+    .edu-follow-btn:hover::before {
+        color: #141517;
+    }
+    
+    .edu-follow-btn::before {
+        position: absolute;
+        content: "";
+        left: 35px;
+        top: 0;
+        
+        font-size: 14px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .edu-follow-btn.followed::before {
+        content: "";
+    }
+    
+    
+    

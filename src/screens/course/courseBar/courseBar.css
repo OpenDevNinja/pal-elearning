@@ -1,0 +1,149 @@
+.course-bar-up-area {
+    padding: 50px 0px 0px;
+}
+.course-main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.bar-filter {
+    border: 1px solid #edeef2; 
+    padding: 15px 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+}
+.bar-filter span {
+    color: #333;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.bar-filter i {
+    line-height: 0;
+    font-size: 19px;
+    color: #666; 
+}
+
+
+.bar-secrch-icon input {
+    height: 60px;
+    padding: 0 40px;
+    font-size: 14px;
+    color: #141517; 
+    outline: none;
+    border: 1px solid #edeef2; 
+    min-width: 420px;
+    background-color: #fff; 
+    border-radius: 3px;
+}
+
+.bar-secrch-icon input::placeholder {
+    color: #a4a7af;
+}
+
+@media screen and (max-width: 1200px),
+       screen and (max-width: 992px),
+       screen and (max-width: 768px),
+       screen and (max-width: 576px) {
+    .bar-secrch-icon input {
+        min-width: 100%;
+    }
+}
+
+
+
+.bar-secrch-icon button {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+	color: #a4a7af;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .corse-bar-wrapper {
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 992px) {
+    .corse-bar-wrapper {
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    .corse-bar-wrapper {
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 576px) {
+    .corse-bar-wrapper {
+        flex-grow: 1;
+    }
+}
+
+.course-sidebar-tab {
+	flex-grow: 1;
+}
+.course-sidebar-wrapper {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #edeef2;
+	padding: 8px 20px;
+	align-items: center;
+	border-radius: 3px;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.curse-tab-left-wrap {
+	display: flex;
+	grid-gap: 10px;
+	align-items: center;
+	line-height: 1;
+	margin: 10px 0;
+}
+.course-result-number {
+	font-weight: 700;
+}
+.course-result-showing {
+	font-weight: 700;
+}
+
+
+.course-drop-inner {
+    position: relative;
+}
+
+.course-drop-inner select {
+    display: inline-block;
+    background: #f7f7f9;
+    border: 0;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 18px;
+    padding-right: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.course-drop-inner::after {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; /* Use the correct weight for your Font Awesome version */
+    content: "\f078"; /* Unicode for the chevron-down icon */
+    color: #575757;
+    cursor: pointer;
+}
+
+
+.course-drop-inner .nice-select span {
+    color: #333; 
+}

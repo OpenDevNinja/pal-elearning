@@ -1,0 +1,7 @@
+.testimonial__content h2 {
+  font-weight: 600;
+}
+.testimonial__wrapper{
+  flex-direction: row-reverse;
+  gap: 1rem;
+}

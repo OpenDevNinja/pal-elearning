@@ -1,0 +1,41 @@
+.hero-arera {
+    background-image: url("../../assets/img/slider/course-slider.jpg");
+}
+.hero-arera.course-item-height::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background:#141517;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.hero-arera.course-item-height {
+    min-height: 300px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-course-1-text h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-left: 8%;
+}
+
+
+.breadcrumb , .breadcrumb a {  
+      color: #fff;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: 8%;
+    font-size: 20px;
+}
+.breadcrumb li span{
+    margin-left: 5px;
+}

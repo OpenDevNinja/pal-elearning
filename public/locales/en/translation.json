@@ -1,0 +1,15 @@
+
+
+{
+    "header":{
+        "home": "Home",
+        "categories" :"Categories",
+        "courses" :"Courses",
+        "about" :"About US",
+        "login":"Login"
+
+    },
+    "heroSection":{
+
+    }
+}
